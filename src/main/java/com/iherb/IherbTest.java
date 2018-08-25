@@ -42,7 +42,7 @@ public class IherbTest {
 
       ((ChromeDriver) driver).findElementsByCssSelector("a[href='https://checkout.iherb.com/EditCart']").get(1).click();
 
-       System.out.println("The card is opened");
+       System.out.println("The cart is opened");
 
 
        Boolean isPresent = ((ChromeDriver) driver).findElementsByXPath("//*[contains(text(), 'MLI-00952')]").size()>0;
