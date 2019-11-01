@@ -13,7 +13,6 @@ import java.util.concurrent.TimeUnit;
 public class IherbTest {
 
    @Test
-
    public void addProductToCartTest(){
        System.setProperty("webdriver.gecko.driver", "/Users/maria_shukhter/Desktop/selenium");
        System.setProperty("webdriver.chrome.driver", "/Users/maria_shukhter/Desktop/selenium/chromedriver");
